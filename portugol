@@ -1,0 +1,66 @@
+1) calcretangulo
+
+Var
+area, base, altura: real
+
+Inicio
+	escreva ("digite o valor da base:")
+	leia (base)
+	escreva ("digite o valor da altura:")
+	leia (altura)
+	area <- (base*altura)
+	escreva ("o valor da area é:" + area)
+Fim
+-------------------------------------------------------------------------------------
+
+
+2)calctriangulo
+
+Var
+area, base, altura: real
+
+Inicio
+	Escreva ("Digite o valor da base:")
+	Leia (base)
+	Escreva (" Digite o valor da altura:")
+	Leia (altura)
+	area <- base*altura/2
+	Escreva (" O valor do triangulo é dê:" + area)
+fim
+-------------------------------------------------------------------------------------
+
+
+
+3) CalcConversaotemp
+
+Var
+fah, cel: real
+
+
+Inicio
+
+	Escreva (" Digite o valor da temperatura em fahrenheit:")
+	Leia (fah)
+	cel <- (fah-32)/1.8
+	Escreva (" A conversão de farrenheit para celsius é de:" + cel)
+
+
+-----------------------------------------------------------------------------------------
+
+
+4) calcdivsao
+
+
+Var
+N1, N2, x: real 
+
+
+Inicio
+	Escreva (" Digite o valor de N1:")
+	Leia (N1)
+	Escreva ("Digite o de N2:")
+	Leia (N2)
+	x <- N1 % N2
+	Escreva (" O valor de x é dê:" + x)
+Fim
+-------------------------------------------------------------------------------------------
