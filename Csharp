@@ -1,0 +1,62 @@
+Exe1 CSHARP C#
+sing System;
+
+class Program {
+	
+    static void Main(string[] args) {
+		double area, basee, altura;
+        Console.WriteLine("Digite o valor da base:");
+		basee=double.Parse(Console.ReadLine());
+		Console.WriteLine ("Digite o valor da altura:");
+		altura=double.Parse(Console.ReadLine());
+		area=basee*altura;
+		Console.WriteLine("A area é:"+area);
+			
+    }
+}
+
+
+Exe2 CSHARP C#
+using System;
+
+class Program {
+    static void Main(string[] args) {
+double area, basee, altura;
+		Console.WriteLine("Digite o valor da base:");
+		basee=double.Parse(Console.ReadLine());
+		Console.WriteLine("Digite o valor da altura");
+		altura=double.Parse(Console.ReadLine());
+		area=basee*altura/2;
+		Console.WriteLine("o triangulo tem o tamanho de:"+area);
+		
+    }
+}
+
+
+Exe3 CSHARP C#
+using System;
+
+class Program {
+    static void Main(string[] args) {
+		double fah, cel;
+        Console.WriteLine("Digite a temperatura em fahrenheit:");
+		fah=double.Parse(Console.ReadLine());
+		cel=(fah-32)/1.8;
+		Console.WriteLine("A conversão de fahrenheit para celsius é de:"+cel,);
+    }
+}
+
+Exe4 CSHARP C#
+using System;
+
+class Program {
+    static void Main(string[] args) {
+        double N1, N2, x;
+		Console.WriteLine("Digite o valor de N1");
+		N1=double.Parse(Console.ReadLine());
+		Console.WriteLine("Digite o valor de N2");
+		N2=double.Parse(Console.ReadLine());
+		x=N1%N2;
+		Console.WriteLine("O valor de X é:"+x);
+    }
+}
