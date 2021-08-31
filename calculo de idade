@@ -1,0 +1,17 @@
+using System;
+
+class Program {
+    static void Main(string[] args) {
+		string nome;
+		int nasc, anoatual, idade;
+        Console.WriteLine("Digite seu nome:");
+		nome=Console.ReadLine();
+		Console.WriteLine("Digite seu ano de nascimento:");
+		nasc=int.Parse(Console.ReadLine());
+		Console.WriteLine("Digite o ano em que estamos:");
+		anoatual=int.Parse(Console.ReadLine());
+		idade=anoatual-nasc;
+		Console.WriteLine(nome + " sua idade é " + idade);
+		
+    }
+}
