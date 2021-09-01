@@ -1,0 +1,21 @@
+using System;
+
+class Program {
+    static void Main(string[] args) {
+        int nota1, nota2;
+		Console.WriteLine("Digite a primeira nota:");
+		nota1=int.Parse(Console.ReadLine());
+		Console.WriteLine("Digite a segunda nota:");
+		nota2=int.Parse(Console.ReadLine());
+
+		if (nota1+nota2/2 >=6)
+		{
+			Console.Write("Aluno APROVADO");
+		}
+		else
+			Console.Write("Aluno REPROVADO");
+		{
+			
+		}
+    }
+}
